@@ -1,0 +1,60 @@
+body {
+    font-family: 'Lucida Console', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    margin-bottom: 1rem;
+}
+
+#mazeCanvas {
+    border: 1px solid #000;
+    margin-bottom: 1rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.btn {
+    background-color: lightgray;
+    border: 1px solid black;
+    color: black;
+    padding: 0.75rem 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Lucida Console', monospace;
+    font-size: 1.25rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), inset 0 -4px 0 rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: lightgray;
+}
+
+.btn:active {
+    background-color: lightgray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), inset 0 2px 0 rgba(0, 0, 0, 0.1);
+}
